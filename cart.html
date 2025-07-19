@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg.jpg" class="logo_imagee"  alt="Logo">
+            <h1>0Hunger</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            &#xf42c;
+            <!-- <img src="" alt="Cart Icon"> -->
+        </div>
+    </header>
+
+    <main>
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-items">
+            <!-- Items will be dynamically loaded here -->
+        </div>
+
+        <div class="cart-summary">
+            <p>Total Price: <span id="total-price">₹0</span></p>
+            <button id="proceed-payment" class="button" onclick="window.location.href='payment.html'">Proceed to Payment</button>
+        </div>
+    </main>
+</body>
+
+</html>
+

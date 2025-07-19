@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - Hunger</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="cart.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpeg.jpg" class="logo_imagee"    alt="Hunger Logo">
+      <h1>0Hunger</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Payment</h2>
+    <form id="payment-form">
+      <div>
+        <label for="payment-method">Choose Payment Method:</label>
+        <select id="payment-method" required>
+          <option value="credit-card">Credit Card</option>
+          <option value="debit-card">Debit Card</option>
+          <option value="upi">UPI</option>
+          <option value="cash-on-delivery">Cash on Delivery</option>
+        </select>
+      </div>
+      <button type="submit" class="button">Submit Payment</button>
+    </form>
+    <p id="confirmation-message" style="display: none;">Thank you for your payment! Your order is confirmed. 😊</p>
+  </main>
+  <script>
+    document.getElementById("payment-form").addEventListener("submit", function(event) 
+    {
+      localStorage.setItem("orderDetails", JSON.stringify(orderDetails));
+  
+      alert("Payment successful! Your order has been placed.");
+      window.location.href = "order_confirmation.html";  // Redirect to confirmation page
+    });
+  </script>
+  
+</body>
+</html>
+

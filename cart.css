@@ -1,0 +1,73 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ffede8, #ffa489);
+    padding: 1rem;
+  }
+.logo_imagee{
+    border-radius: 100%;
+}
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  header .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .button {
+    background: #ff715b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 100px;
+  }
+  
+  /* Cart and Menu Items */
+  .cart-item, .menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+.addtocart{
+    height:50px;
+}
+.dishes{
+    height: 200px;
+    width: 300px;
+}
+h3{
+    text-align: center;
+    font-weight:700;
+}
+#menu{
+    text-align: center;
+    margin-bottom: 70px;
+}

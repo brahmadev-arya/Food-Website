@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0Hunger - Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body onload="displayUsername()">
+
+<header class="header">
+    
+        <div class="nav_header">
+            <div class="nav_logo">
+                <img class="logo_image" src="logo.jpeg.jpg" alt="0Hunger Logo">
+            </div>
+            <div id="menu_btn" class="nav_menu_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav_links" id="nav_links">
+              <li><a href="home.html" class="active">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="subscription.html">Subscription</a></li>
+              
+            </ul>
+        <!-- <div class="auth-buttons">
+            <button onclick="openModal('loginModal')">Login</button>
+            <button onclick="openModal('signupModal')" class="signup">Sign Up</button>
+        </div>
+       </nav>
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('loginModal')">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="loginEmail" placeholder="Email" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+ Sign-Up Modal
+<div id="signupModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('signupModal')">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" id="signupName" placeholder="Full Name" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="signupEmail" placeholder="Email" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-phone"></i>
+                <input type="tel" id="signupContact" placeholder="Contact Number" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="signupPassword" placeholder="Password" required>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</div> -->
+</nav>
+<!-- Hero Section -->
+<!-- <nav class="section_container header_container" id="home">
+    <div class="header_content">
+        <h2>IT'S TIME TO EAT HEALTHY FOOD</h2>
+        <h1>THALI<br><span>WEEK</span></h1>
+    </div>
+    <div>
+        <img src="https://media.istockphoto.com/id/1158578874/photo/indian-hindu-veg-thali-food-platter-selective-focus.jpg?s=612x612&w=0&k=20&c=ZHAsJ9sJJoeAmwD3iU1Oo2YSKn_BG6JoE7zuG1frxwg=" alt="header" class="header_image"> </div>
+    
+</header> -->
+<section class="section_contianer banner_container" id="special" >
+    <div class="banner_card">
+      <p>
+        TRY THIS
+      </p>
+      <H4>THALI</H4>
+    </div>
+    
+    <div class="banner_card">
+      <p>TRY IT OUT THIS</p>
+      <H4>COMPLETE MEAL</H4>
+    </div>
+    <div class="banner_card">
+      <p>THE SNACKS</p>
+      <H4>FOR YOU</H4>
+    </div>
+    <div class="banner_card">
+      <p>A special Deal</p>
+      <H4>combo</H4>
+    </div>
+  </section>
+
+  <section class="section_container order_container" id="menu">
+        <h3>ALWAYS HEALTHY AND TASTY FOOD</h3> 
+        <p class="section_description">
+          "Love at first sight , Deliverd straight to your door".
+          </p>
+       <h2 class="section_header">CHOOSE & ENJOY</h2>
+   
+       <!-- <div class="order_grid">
+      <div class="order_card">
+        <h4>Special Thali</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUL9jQBivN19zisw2Rtz1kk0yxhEHjWsa1KG65dJffBIesab8crX7lRNVVJ6jKY7BExc&usqp=CAU" alt="order">
+        
+        <p>POORI SABJI+KHEER
+        </p>
+        <button class="btn">ORDER NOW</button>
+      </div>
+       </div> 
+       <div class="order_grid">
+        <div class="order_card">
+          <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2014/05/idli-sambar-1-500x500.jpg" alt="order">
+           <h4>Special Thali</h4>
+          <p>IDLI SAMBHAR
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+         </div> 
+         <div class="order_grid">
+          <div class="order_card">
+            <img src="https://i.pinimg.com/originals/fb/08/07/fb08075331c61a716e2cb9bbd8acadba.jpg" alt="order">
+             <h4>Special Thali</h4>
+            <p>TANDOORI ROTI + PANNER
+            </p>
+            <button class="btn">ORDER NOW</button>
+          </div>
+        </div> -->
+
+        <!-- <header>
+            <h1>Delicious Meals</h1>
+            <div class="cart-icon" onclick="viewCart()">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </header>
+        
+        <section class="menu">
+            <div class="menu-item" data-name="Paneer Thali" data-price="120">
+                <h3>Paneer Thali - ₹120</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Veg Thali" data-price="100">
+                <h3>Veg Thali - ₹100</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Masala Dosa" data-price="80">
+                <h3>Masala Dosa - ₹80</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Chole Bhature" data-price="90">
+                <h3>Chole Bhature - ₹90</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Aloo Paratha" data-price="70">
+                <h3>Aloo Paratha - ₹70</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Samosa" data-price="30">
+                <h3>Samosa - ₹30</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Dal Makhani" data-price="110">
+                <h3>Dal Makhani - ₹110</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+            <div class="menu-item" data-name="Butter Naan" data-price="40">
+                <h3>Butter Naan - ₹40</h3>
+                <button onclick="addToCart(this)">Order Now</button>
+            </div>
+        </section>
+        
+        <script>
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+            function addToCart(button) {
+                let item = button.parentElement;
+                let name = item.getAttribute("data-name");
+                let price = item.getAttribute("data-price");
+                
+                let existingItem = cart.find(i => i.name === name);
+                if (existingItem) {
+                    existingItem.quantity++;
+                } else {
+                    cart.push({ name, price, quantity: 1 });
+                }
+                
+                localStorage.setItem('cart', JSON.stringify(cart));
+                updateCartCount();
+            }
+    
+            function updateCartCount() {
+                document.getElementById('cart-count').innerText = cart.reduce((sum, item) => sum + item.quantity, 0);
+            }
+    
+            function viewCart() {
+                window.location.href = "cart.html";
+            }
+            
+            updateCartCount();
+        </script> -->
+
+  </section>
+    <!-- //event -->
+    <section class="section_container event_container" id="event">
+        <div class="event_content">
+          <div class="event_image">
+            <img src="https://static.vecteezy.com/system/resources/previews/030/643/212/non_2x/of-indian-food-with-no-background-free-photo.jpg" alt="event">
+          </div>
+      
+          <div class="event_details">
+           <h3> Discover </h3>
+           <h2 class="section_header">UPCOMING EVENTS</h2>
+           <p class="section_description">
+            1. New Year / Semester Start Offer
+
+            "Fresh Start, Fresh Meals": Get 20% off your first month's subscription for a healthier start to the semester.
+            
+            Group Sign-Up Bonus: Invite your friends or colleagues to subscribe and earn a free meal for every new referral.
+            
+            <br>
+            2. Exam Prep Special
+            
+            "Fuel for Focus" Combo: 15% off meal combos designed for late-night study sessions.
+            
+            Stress-Free Snacks: Buy 3 snacks, get 1 free during exam week.
+            <br>
+            
+            3. Festive Season Discounts
+            
+            Diwali Delight: Flat ₹200 off on a 7-day meal plan.
+            
+            Christmas Feast Offer: Order festive meals for your group and get one dessert free with every order.
+            </p>
+          </div>
+        </div>
+</section>
+<!-- //reservation -->
+<!-- <section class="reservation" id="contact">
+  <div class="section_container reservation_container">
+    <h3>ORDER YOUR TIFFEN </h3>
+    <h2 class="section_header" >ORDER YOUR TIFFEN</h2>
+    <form action="/">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="date" placeholder="Date">
+      <input type="time" placeholder="Time">
+      <input type="number" placeholder="People">
+      
+      <button class="btn" type="submit">CONFIRM ORDER</button>
+    </form>
+  </div> -->
+  <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXmiyF2DUcsABurzx6Q1l-2vb3t3cJ0aL4Kg&s" class="reservation_bg-1" alt="reservation">
+  <img src="https://chefajaychopra.com/assets/img/recipe/1-1669036985Specialaamrasthali1webp.webp" alt="reservation" class="reservation_bg-2"> -->
+</section>
+<!-- //footer -->
+ <footer class="footer">
+  <div class="section_container footer_container">
+    <div class="footer_logo">
+      <h1>0Hunger</h1>
+    </div>
+    <div class="footer_content">
+      <p>
+        "Thank you for visiting 0Hunger.com . We are dedicated to providing healthy food to students. for any query contact customer@0hunger.com"
+      !</p>
+      <div>
+        <ul class="footer_links">
+          <li>
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            Knowledge Park III ,Greater Noida
+          </li>
+          <li>
+            <span><i class="ri-mail-fill"></i></span>
+            info@0hunger.com
+          </li>
+        </ul>
+        <div class="footer_socials">
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-whatsapp-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+ <script>
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+</body>
+</html>

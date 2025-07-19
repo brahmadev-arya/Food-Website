@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Hunger</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="cart.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpeg.jpg"class="logo_imagee"  alt="Hunger Logo">
+      <h1>0Hunger</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <!-- <li><a href="menu.html" class="active">Menu</a></li> -->
+        <li><a href="subscription.html">Subscription</a></li>
+        <li><a href="cart.html">Cart</a></li> <!-- Cart option available only here -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2 id="menu">Our Menu</h2>
+    <section class="menu-category">
+      <h3 id="normal">Thali</h3>
+      <br>
+      <br>
+
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSL3UIbIqY1eYFDC5_bCja4ANm7ogMY4Juw&s" class="dishes" alt="">
+        <p>₹110</p>
+        <button onclick="addToCart('Normal Thali', 110)" class="addtocart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.shutterstock.com/image-photo/arhar-dal-rice-indian-dish-600nw-2389357495.jpg" class="dishes"   alt="">
+        <p>₹80</p>
+        <button onclick="addToCart('Dal Cahwal', 80)" class="addtocart">Add to Cart</button>
+      </div>
+    </section>
+    <section class="menu-category">
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrm8M8K2yPGZ8eZss8pLY_FAddze8wchj--Q&s"class="dishes"   alt="">
+        <p>₹150</p>
+        <button onclick="addToCart('Special Thali', 150)" class="addtocart">Add to Cart</button>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <h3>Fast Food </h3>
+      <br>
+      <br>
+
+      <div class="menu-item">
+        <img src="https://static.vecteezy.com/system/resources/previews/023/010/456/large_2x/the-fast-food-meal-in-the-black-background-with-ai-generated-free-photo.jpg" class="dishes"  alt="">
+        <p>₹89</p>
+        <button onclick="addToCart('Burger', 89)" class="addtocart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="https://c8.alamy.com/comp/2GBH1NN/double-sandwich-with-turkey-cheese-and-vegetables-on-a-dark-background-side-view-close-up-fast-food-2GBH1NN.jpg" class="dishes"  alt="">
+        <p>₹59</p>
+        <button onclick="addToCart('Sandwich', 59)" class="addtocart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.shutterstock.com/image-photo/group-south-indian-food-like-260nw-1153818823.jpg" class="dishes"  alt="">
+        <p>₹180</p>
+        <button onclick="addToCart('Dosa', 180)" class="addtocart">Add to Cart</button>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h3>Salads & Fruits Section</h3>
+      <br>
+      <br>
+
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTLH49UFNP5POJgj4U--mIqQJ3kfX10cAfg&s" class="dishes"  alt="">
+        <p>₹40</p>
+        <button onclick="addToCart('Salads', 40)" class="addtocart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ANk7LjFNuNiaTls1WdBEAME3ZsaSW5ohWw&s" class="dishes"  alt="">
+        <p>₹150</p>
+        <button onclick="addToCart('Fruits', 150)" class="addtocart">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGm8FZptTJZwUA07QGp6Ml4N_PNmvnB3bTQ&s" class="dishes"  alt="">
+        <p>₹190</p>
+        <button onclick="addToCart('Dry fruits', 190)" class="addtocart">Add to Cart</button>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <a href="cart.html" class="button">View Cart</a>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</body>
+</html>
