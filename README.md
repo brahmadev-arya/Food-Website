@@ -2,7 +2,7 @@
 
 This is a **frontend mini project** built using HTML, CSS, and JavaScript. It showcases a simple food ordering website with responsive design.
 
-##  Features
+## Features
 - Landing/Home Page
 - Menu Display with Images
 - Cart UI (mock)
@@ -10,7 +10,7 @@ This is a **frontend mini project** built using HTML, CSS, and JavaScript. It sh
 - Mobile Responsive Layout
 - Modern Design
 
-## 🛠 Tech Stack
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript
@@ -18,7 +18,7 @@ This is a **frontend mini project** built using HTML, CSS, and JavaScript. It sh
 ##  Live Demo
 🔗 [Click here to view the live site](https://brahmadev-arya.github.io/Food-Website/)
 
-## 📸 Screenshots
+##  Screenshots
 > Upload screenshots in a folder named `/images` and refer them like:
 
 
